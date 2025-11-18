@@ -1,67 +1,46 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:17.11.2025
+## Reference Number:212224240081
+## Name:Madhan C
 ## Problem Title
-SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
-## Problem Description
-### Background
+# SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
+# 1. Problem Statement
+Pig and poultry farms are highly susceptible to disease outbreaks which can cause major economic losses. Good biosecurity practices are essential to prevent, contain, and report infections quickly—but small farms often lack the tools and knowledge needed to monitor and implement biosecurity protocols.
 
-Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors, where disease outbreaks such as Avian Influenza and African Swine Fever can cause significant economic losses, threaten food security, and disrupt rural livelihoods. Despite its importance, many farmers—especially smallholders in resource-limited areas—struggle to access practical, actionable information on biosecurity protocols, risk assessment tools, and regulatory compliance requirements.
+# 2. Proposed Solution
+Our project proposes a Digital Farm Management Portal designed for pig and poultry farmers. The portal will:
+Provide easy guidelines, step-by-step checklists, and video tutorials for disease prevention
+Allow farmers to log health data, feed schedules, cleaning routines, and visitor information
+Send automated reminders for routine biosecurity tasks (like cleaning, vaccination, feed checks)
+Alert authorities or experts in case of symptoms or suspected outbreaks
+Offer a dashboard overview of farm status, historical trends, and recommendations
 
-### Problem Description
+# 3. Technical Approach
+Tech Stack: Python backend (Django/Flask), React front-end, MySQL database, and cloud hosting (AWS/Azure/GCP).
+Main Components:
+User authentication for farmers
+Data entry forms for farm activities and animal health
+Notification module (SMS/email alerts)
+Dashboard for visualizing daily farm status and risks
+Workflow: Users log in → Enter daily routines and observations → System tracks compliance and health alerts → Reports are generated and shared with relevant authorities.
+Basic architecture diagram or flowchart goes here (draw this in any diagram tool and upload as image).
 
-There is an urgent need for a user-friendly, digital platform that empowers farmers to implement, monitor, and sustain robust biosecurity practices on their farms. This portal should offer end-to-end solutions for farm-level biosecurity management by integrating:
+# 4. Feasibility and Challenges
+The portal is feasible using current low-cost cloud and web technologies. Key challenges:
+Ensuring easy usage for farmers with limited technical skills
+Data privacy and secure storage
+Reliable internet access in rural regions
+Mitigations:
+Design intuitive mobile app interface in local languages
+Offline data entry with sync when connected
+Strict access controls and encrypted data
 
-• Customizable risk assessment tools based on local epidemiological conditions.
-• Interactive training modules and best practice guidelines tailored for pig and poultry production systems.
-• Compliance tracking features aligned with regulatory frameworks to help farmers work toward disease-free compartment recognition.
-• Real-time alerts and monitoring dashboards for disease outbreaks and biosecurity breaches.
-• Multilingual and mobile-first design to ensure accessibility in remote and rural areas.
+# 5. Impact and Benefits
+Social: Reduces disease spread, improves farmer livelihood and farm worker safety.
+Economic: Less disease-related loss, increased productivity from better animal health.
+Environmental: Better waste management and cleaner farms reduce pollution risks.
 
-The platform should also enable data collection and analysis for policy support, foster collaborative networking among stakeholders (farmers, veterinarians, extension workers, etc.), and promote long-term resilience and sustainability in the livestock sector.
-
-### Expected Outcomes
-
-• Enhanced farmer awareness and education on biosecurity.
-• Improved risk management at the farm level as well as self-assessment.
-• Easy access to customized biosecurity protocols and guidelines.
-• Digital record-keeping and compliance tracking.
-• Timely alerts and disease notifications to farmers.
-• Healthier livestock and increased farm productivity.
-• Empowerment of small and marginal farmers with limited resources.
-• Support to authorities in data-driven surveillance and policy making.
-• Stronger collaboration across the livestock ecosystem.
-• Improved national preparedness for zoonotic and transboundary diseases.
-
-## Problem Creater's Organization
-Ministry of Fisheries, Animal Husbandry & Dairying
-
-## Theme
-Department of Animal Husbandry & Dairying (DoAH&D)
-
-## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
-
-## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
-
-## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
-
-## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
-
-## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+# 6. Research/References
+ICAR Biosecurity Guidelines
+FAO Pig Biosecurity Manual
+Case Study: Digital Farm Platforms in Rural India
